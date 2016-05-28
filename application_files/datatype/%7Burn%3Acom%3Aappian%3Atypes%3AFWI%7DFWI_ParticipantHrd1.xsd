@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema targetNamespace="urn:com:appian:types:FWI"
+  xmlns:tns="urn:com:appian:types:FWI" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <xsd:complexType name="FWI_ParticipantHrd1">
+    <xsd:annotation>
+      <xsd:appinfo source="appian.jpa">
+		@Table(name="fwi_participant_hrd1")
+	  </xsd:appinfo>
+    </xsd:annotation>
+    <xsd:sequence>
+      <xsd:element name="participantId" nillable="true" type="xsd:int">
+        <xsd:annotation>
+          <xsd:appinfo source="appian.jpa">
+			@Id 
+			@GeneratedValue
+			@Column(name="participant_id")
+		  </xsd:appinfo>
+        </xsd:annotation>
+      </xsd:element>
+      <xsd:element name="planNumber" nillable="true" type="xsd:int">
+        <xsd:annotation>
+          <xsd:appinfo source="appian.jpa">
+			@Column(name="plan_number")
+		  </xsd:appinfo>
+        </xsd:annotation>
+      </xsd:element>
+      <xsd:element name="lastName" nillable="true" type="xsd:string">
+        <xsd:annotation>
+          <xsd:appinfo source="appian.jpa">
+			@Column(name="last_name")
+		  </xsd:appinfo>
+        </xsd:annotation>
+      </xsd:element>
+    </xsd:sequence>
+  </xsd:complexType>
+</xsd:schema>

@@ -1,0 +1,37 @@
+Success (2):
+datatype 2678 {urn:com:appian:types:FWI}FWI_ParticipantHrd1 "{urn:com:appian:types:FWI}FWI_ParticipantHrd1"
+application 2789 _a-0000dbe6-1e5d-8000-9ba2-011c48011c48_3102 "AkshayaTest"
+
+Trace:
+2016-05-22 12:14:54.448 DEBUG application 2789 _a-0000dbe6-1e5d-8000-9ba2-011c48011c48_3102 Begin transport.
+2016-05-22 12:14:54.448 DEBUG application 2789 _a-0000dbe6-1e5d-8000-9ba2-011c48011c48_3102 Retrieving object data.
+2016-05-22 12:14:54.453 DEBUG application 2789 _a-0000dbe6-1e5d-8000-9ba2-011c48011c48_3102 App associated objects: GlobalIdMap[datatype=[{urn:com:appian:types:FWI}FWI_demographicHrd1, {urn:com:appian:types:FWI}FWI_ParticipantHrd1]]
+2016-05-22 12:14:54.456 DEBUG application 2789 _a-0000dbe6-1e5d-8000-9ba2-011c48011c48_3102 Invalid associated objects: GlobalIdMap[datatype=[{urn:com:appian:types:FWI}FWI_demographicHrd1]]
+2016-05-22 12:14:54.456 DEBUG application 2789 _a-0000dbe6-1e5d-8000-9ba2-011c48011c48_3102 Adding valid associated objects to be exported: GlobalBindingMap[datatype={{urn:com:appian:types:FWI}FWI_ParticipantHrd1=2678}]
+2016-05-22 12:14:54.456 DEBUG application 2789 _a-0000dbe6-1e5d-8000-9ba2-011c48011c48_3102 Setting uuids of object references.
+2016-05-22 12:14:54.459 DEBUG application 2789 _a-0000dbe6-1e5d-8000-9ba2-011c48011c48_3102 Processing reference: Application.forum
+2016-05-22 12:14:54.461 DEBUG application 2789 _a-0000dbe6-1e5d-8000-9ba2-011c48011c48_3102 Processing reference: Application.parent
+2016-05-22 12:14:54.465 DEBUG application 2789 _a-0000dbe6-1e5d-8000-9ba2-011c48011c48_3102 Processing reference: com.appiancorp.suiteapi.content.ContentRoleMap@26d99732[
+  ContentRole[name=readers,inherit=false,allowForAll=false]
+  ContentRole[name=authors,inherit=false,allowForAll=false]
+  ContentRole[name=administrators,inherit=false,allowForAll=false]
+  ContentRole[name=denyReaders,inherit=false,allowForAll=false]
+  ContentRole[name=denyAuthors,inherit=false,allowForAll=false]
+  ContentRole[name=denyAdministrators,inherit=false,allowForAll=false]
+  securityVector=1:SEC_PUBLIC=true,SEC_CREATOR_ADMIN=false,SEC_INH_ADMIN=false,SEC_INH_EDITOR=false,SEC_INH_VIEWER=false,SEC_ALL_ADMIN=false,SEC_ALL_EDITOR=false,SEC_ALL_VIEWER=false
+]
+2016-05-22 12:14:54.465 DEBUG application 2789 _a-0000dbe6-1e5d-8000-9ba2-011c48011c48_3102 Processing reference: ContentRole[name=readers,inherit=false,allowForAll=false]
+2016-05-22 12:14:54.465 DEBUG application 2789 _a-0000dbe6-1e5d-8000-9ba2-011c48011c48_3102 Processing reference: ContentRole[name=authors,inherit=false,allowForAll=false]
+2016-05-22 12:14:54.465 DEBUG application 2789 _a-0000dbe6-1e5d-8000-9ba2-011c48011c48_3102 Processing reference: ContentRole[name=administrators,inherit=false,allowForAll=false]
+2016-05-22 12:14:54.465 DEBUG application 2789 _a-0000dbe6-1e5d-8000-9ba2-011c48011c48_3102 Processing reference: ContentRole[name=denyReaders,inherit=false,allowForAll=false]
+2016-05-22 12:14:54.465 DEBUG application 2789 _a-0000dbe6-1e5d-8000-9ba2-011c48011c48_3102 Processing reference: ContentRole[name=denyAuthors,inherit=false,allowForAll=false]
+2016-05-22 12:14:54.465 DEBUG application 2789 _a-0000dbe6-1e5d-8000-9ba2-011c48011c48_3102 Processing reference: ContentRole[name=denyAdministrators,inherit=false,allowForAll=false]
+2016-05-22 12:14:54.466 DEBUG datatype 2678 {urn:com:appian:types:FWI}FWI_ParticipantHrd1 Begin transport.
+2016-05-22 12:14:54.466 DEBUG datatype 2678 {urn:com:appian:types:FWI}FWI_ParticipantHrd1 Retrieving object data.
+2016-05-22 12:14:54.489 DEBUG datatype 2678 {urn:com:appian:types:FWI}FWI_ParticipantHrd1 Setting uuids of object references.
+2016-05-22 12:14:54.492 DEBUG datatype 2678 {urn:com:appian:types:FWI}FWI_ParticipantHrd1 Exporting binary resources.
+2016-05-22 12:14:54.492 DEBUG datatype 2678 {urn:com:appian:types:FWI}FWI_ParticipantHrd1 Serializing object to XML.
+2016-05-22 12:14:54.495 DEBUG datatype 2678 {urn:com:appian:types:FWI}FWI_ParticipantHrd1 Object transported.
+2016-05-22 12:14:54.495 DEBUG application 2789 _a-0000dbe6-1e5d-8000-9ba2-011c48011c48_3102 Exporting binary resources.
+2016-05-22 12:14:54.495 DEBUG application 2789 _a-0000dbe6-1e5d-8000-9ba2-011c48011c48_3102 Serializing object to XML.
+2016-05-22 12:14:54.499 DEBUG application 2789 _a-0000dbe6-1e5d-8000-9ba2-011c48011c48_3102 Object transported.
